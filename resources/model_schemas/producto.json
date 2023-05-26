@@ -1,0 +1,100 @@
+[
+	{
+		"name": "id",
+		"dbType": "integer,true,true",
+		"htmlType": "",
+		"validations": "",
+		"searchable": true,
+		"fillable": true,
+		"primary": true,
+		"inForm": true,
+		"inIndex": true,
+		"inView": false
+	},
+	{
+		"name": "categoria_id",
+		"dbType": "integer,false,true",
+		"htmlType": "",
+		"validations": "",
+		"searchable": true,
+		"fillable": true,
+		"primary": true,
+		"inForm": true,
+		"inIndex": true,
+		"inView": false
+	},
+
+	{
+		"name": "nombre",
+		"dbType": "string",
+		"htmlType": "text",
+		"validations": "required",
+		"searchable": true,
+		"fillable": true,
+		"primary": false,
+		"inForm": true,
+		"inIndex": true,
+		"inView": true
+	},
+	{
+		"name": "descripcion",
+		"dbType": "string",
+		"htmlType": "text",
+		"validations": "required",
+		"searchable": true,
+		"fillable": true,
+		"primary": false,
+		"inForm": true,
+		"inIndex": true,
+		"inView": true
+	},
+	{
+		"name": "anio_vigencia",
+		"dbType": "string",
+		"htmlType": "text",
+		"validations": "",
+		"searchable": true,
+		"fillable": true,
+		"primary": false,
+		"inForm": true,
+		"inIndex": true,
+		"inView": true
+	},
+	{
+		"name": "created_at",
+		"dbType": "timestamp",
+		"htmlType": null,
+		"validations": null,
+		"searchable": false,
+		"fillable": false,
+		"primary": false,
+		"inForm": false,
+		"inIndex": false,
+		"inView": true
+	},
+	{
+		"name": "updated_at",
+		"dbType": "timestamp",
+		"htmlType": null,
+		"validations": null,
+		"searchable": false,
+		"fillable": false,
+		"primary": false,
+		"inForm": false,
+		"inIndex": false,
+		"inView": true
+	},
+	{
+		"name": "deleted_at",
+		"dbType": "timestamp",
+		"htmlType": null,
+		"validations": null,
+		"searchable": false,
+		"fillable": false,
+		"primary": false,
+		"inForm": false,
+		"inIndex": false,
+		"inView": false
+	}
+
+]
